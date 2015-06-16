@@ -38,7 +38,6 @@ public class BraketAnalyser {
 			N = Integer.parseInt(br.readLine());
 		} catch (NumberFormatException | IOException e) {
 			System.err.println("Make shure You have typed the NUMBER!!!");
-			e.printStackTrace();
 			return getN();
 		}
 		return N;
